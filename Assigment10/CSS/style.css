@@ -1,0 +1,121 @@
+::selection {
+    background-color: #fec260;
+}
+
+.content {
+    background-color: #F7ECDE;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 60px;
+    color: #352E28;
+}
+
+.container h1::before {
+    content: "";
+    width: 24%;
+    height: 25%;
+    background-color: #FEC260;
+    position: absolute;
+    bottom: 5px;
+    left: 38%;
+    z-index: -1;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+}
+
+.container h1:hover::before {
+    height: 55%;
+}
+
+.bookmarkinput {
+    margin-top: 80px;
+    border-top: 2px dotted;
+    border-bottom: 2px dotted;
+}
+
+input:focus {
+    border-color: #fec260 !important;
+    box-shadow: 0 0 0 4px #fec26055 !important;
+}
+
+.btn-submit {
+    background-color: #d1512d;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+}
+
+.btn-submit:hover {
+    background-color: #BB4120;
+}
+
+.bookmarkinput h2 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    background: linear-gradient(to right, #40A65C, #B2AB49);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.sitename label,
+.siteurl label {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "PT Sans Caption", sans-serif;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+table th {
+    color: #212529 !important;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+}
+
+.body p {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #352E28;
+    font-family: "Bree Serif", serif;
+}
+.body li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #212529;
+    font-family: "PT Sans Caption", sans-serif;
+}
+li i{
+    color: #BB4120;
+}
+.message{
+    width:35%;
+    top: 35%;
+}
+@media only screen and (max-width: 600px) {
+    .message{
+        width: 350px;
+    }
+}
